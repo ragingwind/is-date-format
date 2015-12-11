@@ -1,0 +1,39 @@
+{
+  "name": "is-date-format",
+  "version": "0.0.0",
+  "description": "My ace module",
+  "license": "MIT",
+  "repository": "ragingwind/is-date-format",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "build": "babel src/index.js -o index.js --presets es2015",
+    "test": "npm run build && xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "date",
+    "validator",
+    "is-date"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "ava": "^0.3.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
