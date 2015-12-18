@@ -1,6 +1,6 @@
 {
   "name": "is-date-format",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validate date string with user defined format",
   "license": "MIT",
   "repository": "ragingwind/is-date-format",
