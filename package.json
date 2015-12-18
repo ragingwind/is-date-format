@@ -1,7 +1,7 @@
 {
   "name": "is-date-format",
   "version": "0.1.0",
-  "description": "My ace module",
+  "description": "Validate date string with user defined format",
   "license": "MIT",
   "repository": "ragingwind/is-date-format",
   "author": {
